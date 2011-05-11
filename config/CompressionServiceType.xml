@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serviceType name="CompressionServiceType" factoryClass="com.progress.codeshare.esbservice.compression.CompressionService"
+        xmlns="http://www.sonicsw.com/sonicxq">
+    <validParams>
+        <runtime>
+            <stringParam name="direction"/>
+            <stringParam name="format"/>
+            <stringParam name="keepOriginalPart"/>
+            <stringParam name="messagePart"/>
+        </runtime>
+    </validParams>
+</serviceType>
